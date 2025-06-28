@@ -151,11 +151,15 @@ export function AppSidebar() {
                   size="lg"
                   className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground"
                 >
-                  <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                    <Building2 className="size-4" />
+                  <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 text-white">
+                    <img 
+                      src="/ChatGPT Image Jun 28, 2025, 04_10_53 PM(1).png" 
+                      alt="Hometinuum Logo" 
+                      className="size-6 object-contain"
+                    />
                   </div>
                   <div className="grid flex-1 text-left text-sm leading-tight">
-                    <span className="truncate font-semibold">R.E.P.I.O.S</span>
+                    <span className="truncate font-semibold">Hometinuum</span>
                     <span className="truncate text-xs">Property Intelligence</span>
                   </div>
                   <ChevronDown className="ml-auto" />

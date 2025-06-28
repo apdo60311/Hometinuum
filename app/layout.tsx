@@ -9,9 +9,9 @@ import { LocalizationProvider } from "@/components/localization-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "R.E.P.I.O.S - Real Estate & Property Intelligence OS",
-  description: "Advanced multi-tenant SaaS platform for real estate management",
-    generator: 'v0.dev'
+  title: "Hometinuum - Real Estate & Property Intelligence Platform",
+  description: "Advanced multi-tenant SaaS platform for real estate management and property intelligence",
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({

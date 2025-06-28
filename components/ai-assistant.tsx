@@ -146,7 +146,7 @@ export function AIAssistant() {
       id: "1",
       type: "assistant",
       content:
-        "👋 Hello! I'm your R.E.P.I.O.S AI Assistant. I can help you with:\n\n🏢 **Property Analysis** - Performance metrics and insights\n💰 **Financial Planning** - Revenue optimization and forecasting\n📋 **Contract Management** - Renewal tracking and recommendations\n⚠️ **Risk Assessment** - Portfolio risk analysis\n📊 **Market Intelligence** - Trends and opportunities\n\nWhat would you like to explore today?",
+        "👋 Hello! I'm your Hometinuum AI Assistant. I can help you with:\n\n🏢 **Property Analysis** - Performance metrics and insights\n💰 **Financial Planning** - Revenue optimization and forecasting\n📋 **Contract Management** - Renewal tracking and recommendations\n⚠️ **Risk Assessment** - Portfolio risk analysis\n📊 **Market Intelligence** - Trends and opportunities\n\nWhat would you like to explore today?",
       timestamp: new Date(),
       suggestions: [
         "Analyze my property performance",
@@ -252,7 +252,7 @@ export function AIAssistant() {
                 <Bot className="h-5 w-5" />
               </div>
               <div>
-                <CardTitle className="text-sm font-semibold">R.E.P.I.O.S AI Assistant</CardTitle>
+                <CardTitle className="text-sm font-semibold">Hometinuum AI Assistant</CardTitle>
                 <CardDescription className="text-xs text-blue-100">
                   {isTyping ? "Analyzing data..." : "Ready to help"}
                 </CardDescription>
